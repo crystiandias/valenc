@@ -1,0 +1,43 @@
+@import url(cores.css);
+
+
+@media (min-width: 768px) {
+    #btn_mobile{
+        display: none;   
+    }
+    #btn_desktop{
+        display: flex;
+    }
+    .content{
+    width: 80%;
+    }
+    .identidade{
+        width: 40%;
+    }
+
+
+
+            
+}
+
+        
+@media (max-width: 767px) {
+    #btn_mobile{
+        display: flex;   
+    }
+    #btn_desktop{
+        display: none;
+    }
+    .content{
+    width: 95%;
+    }
+    .identidade{
+        width: 100%;
+    }
+
+
+
+
+
+
+}
