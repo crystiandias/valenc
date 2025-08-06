@@ -1,69 +1,41 @@
 @import url(cores.css);
+@import url(configurações_menu.css);
 
 body{
     margin: 0px;
-    max-width: 90vw;
+    max-width: 100svw;
     font-family: Verdana, Tahoma, sans-serif;
     overflow-x: hidden;
 }
-
-/* Estilização menu*/
-
-#menu{
-    position: fixed;
-    background-color: var(--cor_1);
-    display: flex;  
-    justify-content: center;
-    height: 60px; 
-    width: 100svw; 
-    top: 0; 
-    left: 0;
-   
-}
-.content_menu{
-    width: 80%;
-    height: 100%;
-    gap: 20px;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-}
-
-.container {
-    width: 60px; 
-    height: 60px;
-    padding: 10px;
-}
-
-.container img {
-    max-width: 40px; 
-    max-height: 40px; 
-    height: auto;
-    display: block;
-}
-
 /* Estilização conteudo*/
 
 .header{
     background-image: linear-gradient(
-    to right,
-    var(--cor_1) 25%,    
-    var(--cor_3) 75%
-  ); 
+        to right,
+            var(--cor_1) 25%,    
+            var(--cor_3) 75%
+    ); 
     height: 60svh;
-    width: 100svw;
+    width: 100vw;
     margin-top: 60px;
     display: flex;
     justify-content: center;
+}
 
-
+.content_header{
+    width: 80%;
+    height: 100%;
+    gap: 20px;
+    display: flex; 
+    justify-content: left;
+    align-items: center;
 }
 .secao{
-    width: 100svw;
     height: auto;
     background-color:var(--cor_4);
     display: flex;
     justify-content: center;
+   
     padding: 20px;
 }
 .content{

@@ -8,13 +8,27 @@
     #btn_desktop{
         display: flex;
     }
-    .content{
-    width: 80%;
+    .content_header{
+        width: 80%;
     }
     .identidade{
         width: 40%;
     }
 
+    .content{
+        display: flex;
+        align-items: center;
+        width: 80%;
+    }
+    .div_img{
+        width: 40%;
+    }
+    .img_sobre{
+        width: auto;
+        max-height: 200px;
+    }
+
+    
 
 
             
@@ -28,12 +42,32 @@
     #btn_desktop{
         display: none;
     }
-    .content{
-    width: 95%;
+    .content_header{
+        width: 95%;
     }
     .identidade{
         width: 100%;
     }
+    
+
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 280px;
+    }
+    .div_img{
+        max-width: 100%;
+        order: -1;
+    }
+    .img_sobre{
+        max-width: 100%;
+    }
+    .txt_desc{
+        max-width: 100%;
+    }
+
 
 
 
