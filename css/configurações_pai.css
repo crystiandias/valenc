@@ -10,11 +10,13 @@ body{
 /* Estilização conteudo*/
 
 .header{
-    background-image: linear-gradient(
-        to right,
-            var(--cor_1) 25%,    
-            var(--cor_3) 75%
-    ); 
+    background:
+        linear-gradient(to right, var(--cor_1), var(--trans)),
+        url('imagens/bgp.png')
+    ;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
     height: 60svh;
     width: 100vw;
     margin-top: 60px;
@@ -27,8 +29,8 @@ body{
     height: 100%;
     gap: 20px;
     display: flex; 
-    justify-content: left;
-    align-items: center;
+    align-items: center; 
+    justify-content: center;
 }
 .secao{
     height: auto;
